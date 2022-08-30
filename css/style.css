@@ -69,7 +69,7 @@ main{
     border: 0.1rem solid lightgray;
 }
 
-/* section new task &today*/
+/* section new task & today*/
 
 #new-task{
     background-color: white;
@@ -84,6 +84,10 @@ main{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding-top: 20px;
+}
+
+.title-row{
+    font-weight: bold;
 }
 
 .row-list{
