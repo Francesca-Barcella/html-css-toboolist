@@ -33,12 +33,9 @@ span{
 
 /* main */
 main{
-    background-color: violet;
     width: 70%;
     margin: auto;
 }
-
-
 
 /* section button */
 .button-add{
@@ -72,36 +69,72 @@ main{
     border: 0.1rem solid lightgray;
 }
 
-/* section new task */
+/* section new task &today*/
 
 #new-task{
     background-color: white;
     margin-top: 0.25rem;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
+    padding-top: 10px;
+}
+
+#today{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 20px;
+}
+
+.row-list{
+    margin-top: 10px;
 }
 
 .badge{
-    border: 1px solid red;
+    border: 1px solid;
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    padding: 5px;
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.badge.green{
+    border: 1px solid green;
+    color: green;
+}
+
+.badge.red{
+    border: 1px solid red;
+    color: red;
 }
 
 .button-list{
     color: #f0f0f0;
     border: none;
-    font-size: 1.5rem;
-    border-radius: 20px;
-    padding: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .button-list.editorial{
     background-color: #45ABEA;
 }
 
+.button-list.goals{
+    background-color: #D863A1;
+}
 
+.button-list.recruiting{
+    background-color: #64C0A9;
+}
+
+.button-list.mobile{
+    background-color: #F29E33;
+}
 
 
 
