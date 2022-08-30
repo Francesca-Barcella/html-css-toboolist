@@ -1,13 +1,33 @@
 :root{
     --bol-lightgrey: #D9D9D9;
-    --bol-lightgrey: #47ADF1;
-    --bol-lightgrey: #45ABEA;
-    --bol-lightgrey: #9C72E4;
-    --bol-lightgrey: #64C0A9;
-    --bol-lightgrey: #F29E33;
-    --bol-lightgrey: #D863A1;
-    --bol-lightgrey: #B0C926;
+    --bol-blue: #47ADF1;
+    --bol-bluelite: #45ABEA;
+    --bol-violet: #9C72E4;
+    --bol-ligthgreen: #64C0A9;
+    --bol-orange: #F29E33;
+    --bol-pink: #D863A1;
+    --bol-fluogreen: #B0C926;
 }
+
+*{
+    font-family: Arial, sans-serif;
+}
+
+/* header */
+header{
+    height: 40%;
+    vertical-align: middle;
+}
+
+span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* main */
+
+
+
 
 
 
