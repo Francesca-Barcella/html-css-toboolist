@@ -33,9 +33,18 @@ span{
 
 /* main */
 main{
-    background-color: white;
+    background-color: violet;
     width: 70%;
     margin: auto;
+}
+
+.button-list{
+    color: #f0f0f0;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    padding: 20px;
+
 }
 
 /* section button */
@@ -46,6 +55,7 @@ main{
     padding-bottom: 1rem;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
+    background-color: white;
 }
 
 .button{
@@ -68,6 +78,26 @@ main{
     color:lightgray;
     border: 0.1rem solid lightgray;
 }
+
+/* section new task */
+
+#new-task{
+    background-color: white;
+    margin-top: 0.25rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.badge{
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+
+
 
 
 
