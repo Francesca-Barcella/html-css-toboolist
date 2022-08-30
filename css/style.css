@@ -69,7 +69,7 @@ main{
     border: 0.1rem solid lightgray;
 }
 
-/* section new task & today*/
+/* section new task & today & upcoming*/
 
 #new-task{
     background-color: white;
@@ -79,7 +79,7 @@ main{
     padding-top: 10px;
 }
 
-#today{
+#today,#upcoming{
     background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -129,7 +129,7 @@ main{
 }
 
 .button-list.goals{
-    background-color: #D863A1;
+    background-color: #9C72E4;
 }
 
 .button-list.recruiting{
@@ -138,6 +138,14 @@ main{
 
 .button-list.mobile{
     background-color: #F29E33;
+}
+
+.button-list.website{
+    background-color: #D863A1;
+}
+
+.button-list.sale{
+    background-color: #B0C926;
 }
 
 
